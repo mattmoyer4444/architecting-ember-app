@@ -1,0 +1,2 @@
+ember generate model user
+ember generate model post

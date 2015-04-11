@@ -1,0 +1,6 @@
+ember generate route login --path "/"
+ember generate route dashboard
+ember generate route user --path "/:user_id"
+ember generate route user/posts --path "/"
+ember generate route user/followers
+ember generate route user/following

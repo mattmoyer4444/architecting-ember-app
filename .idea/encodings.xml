@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.talentbuddy/run-test.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.talentbuddy/task-5/integration-test.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/adapters/application.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/create_models.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/post.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/create_routes.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/dashboard.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/user/posts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/dashboard.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/index.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/login.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/profile.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/user.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/user/followers.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/user/following.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/create_mock.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/mocks/posts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/mocks/users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tests/test-helper.js" charset="UTF-8" />
+  </component>
+</project>

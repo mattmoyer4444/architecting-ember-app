@@ -1,0 +1,2 @@
+ember generate http-mock users
+ember generate http-mock posts
