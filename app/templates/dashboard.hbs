@@ -2,6 +2,7 @@
     Posts from the people you follow
 </h1>
 
+{{#each post in model}}
 <div class="post">
   <span class="name">
     {{post.author.name}}:
@@ -11,3 +12,4 @@
     {{post.body}}
   </span>
 </div>
+{{/each}}

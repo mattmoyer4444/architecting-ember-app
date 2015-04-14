@@ -12,17 +12,17 @@ var User = DS.Model.extend({
   posts: hasMany('post', {async: true})
 });
 
-User.reopenClass({FIXTURES: [
-  {
-    id: '007',
-    name: 'James Bond',
-    email: 'james@bond.com'
-  },
-  {
-    id: '008',
-    name: 'Liam Neeson',
-    email: 'liam@neeson.com'
-  }
-]});
+//User.reopenClass({FIXTURES: [
+//  {
+//    id: '007',
+//    name: 'James Bond',
+//    email: 'james@bond.com'
+//  },
+//  {
+//    id: '008',
+//    name: 'Liam Neeson',
+//    email: 'liam@neeson.com'
+//  }
+//]});
 
 export default User;
