@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-
-  setupController: function(controller, user) {
-    controller.set('model', user.get('name', 'body'));
+  model: function() {
+    return this.store.find('user');
   }
+
 });

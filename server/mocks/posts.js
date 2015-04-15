@@ -27,6 +27,12 @@ module.exports = function(app) {
     });
   });
 
+  function findPostFixtureById(id) {
+    return postFixtures.filter(function(user) {
+      return user.id === id;
+    })[0];
+  }
+
   postsRouter.post('/', function(req, res) {
     res.status(201).end();
   });
@@ -34,7 +40,7 @@ module.exports = function(app) {
   postsRouter.get('/:id', function(req, res) {
     res.send({
       'posts': {
-        id: req.params.id
+        'post': findPostFixtureById(req.params.id)
       }
     });
   });
