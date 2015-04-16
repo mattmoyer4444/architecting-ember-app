@@ -3,25 +3,25 @@ module.exports = function(app) {
   var postsRouter = express.Router();
 
   var postFixtures =  [
-      {
-        id: 'post1',
-        body: "Body of post 1",
-        author: "007",
-        creationDate: new Date("2015-01-20")
-      },
-      {
-        id: 'post2',
-        body: "Body of post 2",
-        author: "008",
-        creationDate: new Date("2015-01-30")
-      },
-      {
-        id: 'post3',
-        body: "Body of post 3",
-        author: "007",
-        creationDate: new Date("2015-01-27")
-      }
-    ]
+    {
+      id: 'post1',
+      body: "Body of post 1",
+      author: "007",
+      creationDate: new Date("2015-01-20")
+    },
+    {
+      id: 'post2',
+      body: "Body of post 2",
+      author: "008",
+      creationDate: new Date("2015-01-30")
+    },
+    {
+      id: 'post3',
+      body: "Body of post 3",
+      author: "007",
+      creationDate: new Date("2015-01-27")
+    }
+  ]
 
 
   function findPostFixtureById(id) {

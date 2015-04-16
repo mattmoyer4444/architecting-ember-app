@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/controllers/messages/new.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/models/message.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/router.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/routes/messages.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/styles/app.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/templates/about.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/templates/application.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/templates/messages.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/app/templates/messages/new.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ember/chat-app/config/environment.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.talentbuddy/run-test.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.talentbuddy/task-5/integration-test.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/adapters/application.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/controllers/post.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/controllers/user/user.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/create_models.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/post.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/user.js" charset="UTF-8" />

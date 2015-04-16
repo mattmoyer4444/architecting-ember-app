@@ -1,19 +1,22 @@
-
 <h1>
+
     Name: {{name}}
+
 </h1>
+
+{{!--{{outlet}}--}}
 
 {{#each post in controller}}
     <div class="post">
-      <span class="name">
-        {{post.author.name}}:
-      </span>
+<span class="name">
+{{post.author.name}}:
+</span>
 
-      <span class="body">
-        {{post.body}}
-      </span>
-        <span>
-          {{post.creationDate}}
-        </span>
+<span class="body">
+  {{post.body}}
+</span>
+<span>
+  {{post.creationDate}}
+</span>
     </div>
 {{/each}}
